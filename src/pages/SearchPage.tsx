@@ -92,7 +92,7 @@ export default function SearchPage() {
             </label>
 
             <label className="text-xs text-muted col-span-2">
-              Rating (>=)
+              Rating (min)
               <input value={rating} onChange={(e) => setRating(e.target.value)} placeholder="7"
                 className="mt-1 w-full rounded-2xl bg-white/5 border border-white/10 px-3 py-2 text-sm outline-none" />
             </label>
